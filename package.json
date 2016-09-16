@@ -22,6 +22,6 @@
     "webviewOptions": {
       "disablewebsecurity": ""
     },
-    "openDevTools": true
+    "openDevTools": false
   }
 }
