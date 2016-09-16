@@ -1,0 +1,27 @@
+{
+  "name": "はてなブックマーク",
+  "version": "1.0.0",
+  "description": "はてなブックマーク",
+  "main": "index.js",
+  "author": "Kan Fushihara <kan.fushihara@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://b.hatena.ne.jp/{teamID}/favorite",
+    "serviceName": "はてなブックマーク",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "wording": {
+        "url": "b.hatena.ne.jp",
+        "team": "Hatena"
+    },
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": true
+  }
+}
